@@ -1,0 +1,77 @@
+#butt{
+    display:block;
+    text-align: center;
+    width: 400px;
+    height: 220px;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    align-items: center;
+    text-align: center;
+    margin-left: 500px;
+    background-color: black;
+}
+#butt button{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    font-size: larger;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+button:hover{
+    background-color: grey;
+}
+#butt #plus:hover{
+    background-color: darkorange;
+}
+#butt #multi:hover{
+    background-color: darkorange;
+}
+#butt #minus:hover{
+    background-color: darkorange;
+}
+#butt #sum:hover{
+    background-color: darkorange;
+}
+#disp{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 500px;
+    width: 400px;
+    height: 70px;
+    background-color: grey;
+    font-size: 60px;
+    color: black;
+}
+#butt #clear{
+    background-color: orange;
+}
+#butt #plus{
+    background-color: orange;
+}
+#butt #mult{
+    background-color: orange;
+}
+#butt #minus{
+    background-color: orange;
+}
+#butt #sum{
+    background-color: orange;
+}
+#butt #div{
+    background-color: orange;
+}
+#butt #calc{
+    background-color: orange;
+}
+#butt #equal{
+    margin-top: 20px;
+}
+#ans{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    border: solid black 2px;
+}
